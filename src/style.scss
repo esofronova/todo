@@ -1,0 +1,15 @@
+.todo-list {
+  .add:hover {
+    background-color: #ddd;
+  }
+
+  .delete {
+    height: 70px;
+    width: 70px;
+
+    &:hover {
+      background-color: #dc3545;
+      color: white;
+    }
+  }
+}

@@ -28,7 +28,7 @@ export default function ToDoList() {
   ]);
 
   return (
-    <div className="todo-list">
+    <div className="todo-list mx-auto w-100">
       <div className="bg-danger p-5 text-white">
         <h1 className="header">To Do List</h1>
         <div className="input-group">
@@ -76,7 +76,7 @@ export default function ToDoList() {
                   todos.splice(index, 1);
                   setTodos(todos);
                 }}
-              >🞫</div>
+              >&times;</div>
             </div>
           );
         })}

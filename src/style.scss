@@ -1,7 +1,8 @@
 .todo-list {
-  .add:hover {
-    background-color: #ddd;
-  }
+  max-width: 1000px;
+
+  .form-control:focus { box-shadow: none !important; }
+  .add:hover { background-color: #ddd; }
 
   .delete {
     height: 70px;

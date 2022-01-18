@@ -28,8 +28,3 @@ $orange: #ff764d;
 .hover-orange { &:hover { color: $orange !important; } }
 
 .pointer { cursor: pointer; }
-
-* {
-	user-select: none;
-	-webkit-user-select: none;
-}

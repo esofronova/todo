@@ -40,7 +40,7 @@ export default function ToDoList() {
             onChange={e => { setCurrentTodo(e.target.value) }}
           />
           <button
-            className="input-group-text px-5 add"
+            className="input-group-text px-3 px-md-5 add"
             onClick={() => {
               if (currentTodo !== "") {
                 todos.push({
